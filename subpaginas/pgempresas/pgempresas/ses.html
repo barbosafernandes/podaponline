@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div tabindex="0">Click me!</div>
+<p class="to-be-changed"></p>
+<style>
+
+div:focus ~ .to-be-changed {
+	transition: all ease 5s;
+	border: 1px solid black;width: 300px; height: 400px;
+
+}
+
+div{
+	border: 1px solid black;width: 150px; height: 200px;
+	  transition: ease all 5s;
+}
+
+	</style>
+</body>
+</html>
